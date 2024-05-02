@@ -1,0 +1,58 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 50px;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    background-image: url(415428.webp);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(4px); /* Adjust the blur intensity as needed */
+    z-index: -1;
+}
+
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    color: #fff;
+    font-size: 24px;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+}
+
+section {
+    margin: 20px;
+    backdrop-filter: blur(3px);
+    position: relative;
+    z-index: 1;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+footer {
+   font-family: serif;
+    padding: 10px;
+    color: #fff;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+}
